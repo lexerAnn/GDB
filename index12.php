@@ -822,7 +822,7 @@ $(document).ready(function(){
   let btnValue = btn.value;
   var dict = {deviceId : "329a2c7a-fbad-4c34-a288-c38438cd2d11"};
   $.ajax({
-		url:'http://127.0.0.1:5000/spectrum',
+		url:'http://fdfdfdv.herokuapp.com/spectrum',
 		type:'POST',
 		data : JSON.stringify(dict),
     contentType: "application/json",
