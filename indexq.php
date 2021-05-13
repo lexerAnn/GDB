@@ -836,9 +836,9 @@ $(document).ready(function(){
  
 
 
-  // "https://nca-online-db.herokuapp.com/api/view-records
   
-    $.get("http://127.0.0.1:8000/api/view-records",function(datas,status){
+  
+    $.get("https://nca-online-db.herokuapp.com/api/view-records",function(datas,status){
      console.log(datas)
    var data= JSON.parse(JSON.stringify(datas))
  
