@@ -828,9 +828,9 @@ $(document).ready(function(){
     contentType: "application/json",
 		    success:function(response){
           console.log(response)
-           $("#channelsd").html(response.databaseChange.channel)
+           $("#channelsd").html(response)
 
-			console.log(response[3]);
+			
 		             },error:function(jqXhr, textStatus, errorThrown){
 						 console.log(errorThrown)
 					 }
