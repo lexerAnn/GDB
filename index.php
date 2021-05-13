@@ -593,7 +593,7 @@ header('Access-Control-Allow-Origin: *');
                      <th>Operator</th>
                      <th>Antenna Type</th>
                      <th>BASE</th>
-                     <th>Delete</th>
+                     <th>Request</th>
                    
                      <!--th>Shipping</th-->
                    </tr>
