@@ -50,7 +50,7 @@ header('Access-Control-Allow-Origin: *');
 	 <ul class="sidebar-menu do-nicescrol">
       <li class="sidebar-header">MAIN NAVIGATION</li>
       <li>
-        <a href="indexq.php" class="waves-effect">
+        <a href="index.php" class="waves-effect">
           <i class="icon-home"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
         </a>
         <!-- <ul class="sidebar-submenu">
