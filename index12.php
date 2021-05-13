@@ -811,8 +811,7 @@ $(document).ready(function(){
   var para = new URLSearchParams(window.location.search);
     var para1 = new URLSearchParams(window.location.search);
     var pass = para.get("deviceId");
-    var pass1 = para1.get("baseUrl");
-    console.log(pass1)
+    console.log(pass)
 
   let btn = document.getElementById("btn");
 
