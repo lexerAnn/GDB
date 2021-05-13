@@ -828,7 +828,7 @@ $(document).ready(function(){
 		    success:function(response){
           console.log(response.databaseChange.channel)
 	$("#channelsd").html(response.databaseChange.channel)
-           $("#channelsd").html(response)
+   
 
 			
 		             },error:function(jqXhr, textStatus, errorThrown){
