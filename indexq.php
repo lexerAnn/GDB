@@ -829,7 +829,7 @@ header('Access-Control-Allow-Origin: *');
     console.log(baseU)
     para.append("deviceId", dId); 
     para2.append("baseUrl", baseU);   
-    location.href = "index4.php"+"?" +  para.toString() +"&"+ para2.toString();
+    location.href = "index12.php"+"?" +  para.toString() +"&"+ para2.toString();
 }
 
 $(document).ready(function(){
