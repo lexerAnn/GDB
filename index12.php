@@ -236,6 +236,8 @@ $(document).ready(function(){
     $.ajax({
 		url:'http://127.0.0.1:8000/api/delete_nca_devices',
 		type:'POST',
+	    	crossDomain: true,
+	    
     headers: {"Authorization": "Bearer " + localStorage.getItem('token')},
 		data : JSON.stringify(dict),
     contentType: "application/json",
