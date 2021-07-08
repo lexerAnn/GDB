@@ -194,7 +194,7 @@ else
 
 		
 	$.ajax({
-		url:('http://127.0.0.2:80/api/login'),
+		url:('https://tvwsgeolocationdb.herokuapp.com/api/login'),
 		contentType: false,
 		processData: false,
 		enctype: 'application/x-www-form-urlencoded',
