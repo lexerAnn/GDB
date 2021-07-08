@@ -295,14 +295,10 @@ $(document).ready(function(){
   let btnValue = btn.value;
   var dict = {url : $("#IP").val(),username:$("#USE").val(),password:$("#PW").val(),deviceId:data6,longitude:data7,latitude:data8};
   $.ajax({
-// 	  https://fdfdfdv.herokuapp.com/home
-// 	  http://127.0.0.1:5000/home
 		url:'http://127.0.0.1:5000/home',
 		type:'POST',
-	  	crossDomain: true,
-	 	headers: { 'Access-Control-Allow-Origin': '*' },
 		data : JSON.stringify(dict),
-    contentType: "application/json",
+    		contentType: "application/json",
 		    success:function(response){
           console.log(response);
           // console.log(response.databaseChange.channel)
