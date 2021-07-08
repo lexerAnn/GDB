@@ -162,7 +162,7 @@ header('Access-Control-Max-Age: 1000')?>
      
                 </fieldset>
                 <br>
-                <b  class="msg-info" style="margin-left:50px; font-size:25px" >Channel:<h3 id="channelsd">23</h3></b>
+                <b  class="msg-info" style="margin-left:50px; font-size:25px" >Channel:<h3 id="channelsd"></h3></b>
                 
                 <button class ="btn btn-primary" id = "btn">CONNECT</button>
                 
