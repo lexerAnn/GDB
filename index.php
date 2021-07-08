@@ -28,6 +28,22 @@
 	<style type="text/css">
 
 	</style>
+	<!-- Bootstrap core JavaScript-->
+<script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+	
+  <!-- simplebar js -->
+  <script src="assets/plugins/simplebar/js/simplebar.js"></script>
+
+  <!-- sidebar-menu js -->
+  <script src="assets/js/sidebar-menu.js"></script>
+  <!-- Custom scripts -->
+  <script src="assets/js/app-script.js"></script>
+  
+  
+  <!-- Chart js -->
+  <script src="assets/plugins/Chart.js/Chart.min.js"></script>
 </head>
 <body class="bg-white">
 	<!-- Start wrapper-->
@@ -77,7 +93,7 @@
 	 </div>
 	 </div><!--End wrapper-->
 <script
-  src="http://code.jquery.com/jquery-3.5.1.min.js"
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
   crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -207,22 +223,7 @@ else
 	});
 </script>
 
-<!-- Bootstrap core JavaScript-->
-<script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-	
-  <!-- simplebar js -->
-  <script src="assets/plugins/simplebar/js/simplebar.js"></script>
 
-  <!-- sidebar-menu js -->
-  <script src="assets/js/sidebar-menu.js"></script>
-  <!-- Custom scripts -->
-  <script src="assets/js/app-script.js"></script>
-  
-  
-  <!-- Chart js -->
-  <script src="assets/plugins/Chart.js/Chart.min.js"></script>
 
 </body>
 </html>
