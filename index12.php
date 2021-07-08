@@ -291,7 +291,7 @@ $(document).ready(function(){
   let btnValue = btn.value;
   var dict = {url : $("#IP").val(),username:$("#USE").val(),password:$("#PW").val(),deviceId:data6,longitude:data7,latitude:data8};
   $.ajax({
-		url:'http://127.0.0.1:5000/home',
+		url:'https://fdfdfdv.herokuapp.com/home',
 		type:'POST',
 		data : JSON.stringify(dict),
     contentType: "application/json",
