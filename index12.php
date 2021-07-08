@@ -298,7 +298,7 @@ $(document).ready(function(){
   $.ajax({
 		url:'https://fdfdfdv.herokuapp.com/home',
 		type:'POST',
-	 	dataType: 'jsonp',
+	  	headers: {'Access-Control-Allow-Origin': '*'},
 		data : JSON.stringify(dict),
     		contentType: "application/json",
 		    success:function(response){
