@@ -202,6 +202,9 @@ header('Access-Control-Max-Age: 1000')?>
 	
   <!-- simplebar js -->
   <script src="assets/plugins/simplebar/js/simplebar.js"></script>
+	<!-- simplebar js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="assets/plugins/simplebar/js/simplebar.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
