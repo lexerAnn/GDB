@@ -171,6 +171,9 @@ header('Access-Control-Max-Age: 1000')?>
                 <button class ="btn btn-primary" id = "btn">REQUEST</button>
                 
                 </div>
+		   <div class="spinner-border" role="status" id="spinner" style="visibility:hidden">
+						 <span class="visually-hidden"></span>
+							</div>
                 
 
               
@@ -287,7 +290,9 @@ $(document).ready(function(){
   btn.addEventListener("click", () => {
 
     
-
+let spinner = document.getElementById("spinner");
+	spinner.style.visibility = 'visible';
+	
 
     http://127.0.0.1:8000/api/getConnectedDevices
   console.log("Connect")
@@ -300,6 +305,7 @@ $(document).ready(function(){
 		data : JSON.stringify(dict),
     contentType: "application/json",
 		    success:function(response){
+			    spinner.style.visibility = 'hidden';
           console.log(response);
           // console.log(response.databaseChange.channel)
 	$("#channelsd").html(response.databaseChange.channel)
@@ -309,6 +315,7 @@ $(document).ready(function(){
 			
 		             },error:function(jqXhr, textStatus, errorThrown){
 						 console.log(errorThrown)
+				     spinner.style.visibility = 'hidden';
 					 }
 	});
 });
