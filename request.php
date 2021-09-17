@@ -305,6 +305,7 @@ let spinner = document.getElementById("spinner");
 		data : JSON.stringify(dict),
     contentType: "application/json",
 		    success:function(response){
+			    alert("Channel Assigned")
 			    spinner.style.visibility = 'hidden';
           console.log(response);
           // console.log(response.databaseChange.channel)
@@ -315,6 +316,7 @@ let spinner = document.getElementById("spinner");
 			
 		             },error:function(jqXhr, textStatus, errorThrown){
 						 console.log(errorThrown)
+				     alert("Error Channel Assigned")
 				     spinner.style.visibility = 'hidden';
 					 }
 	});
