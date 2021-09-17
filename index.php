@@ -81,7 +81,7 @@ header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
 	 					</div>
 						 <div class="form-group">
 	 						<div class="label" style="color: white">Confirm Password</div>
-	 						<input type="cpassword" id=cpassword name="cpassword" class="form-control" placeholder="Password" id="pass">
+	 						<input type="password" id=cpassword name="cpassword" class="form-control" placeholder="Password">
 	 						<b class="danger" id="cpasswordError" style="color: white"></b>
 	 					</div>
 						 <div class="form-group btns">
