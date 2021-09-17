@@ -165,15 +165,15 @@ header('Access-Control-Max-Age: 1000')?>
            <br> -->
           
             </form>
-     
+     <div class="spinner-border text-dark" role="status" id="spinner" style="visibility:hidden">
+						 <span class="visually-hidden"></span>
+							</div>
                 </fieldset>
                 <br>
                 <button class ="btn btn-primary" id = "btn">REQUEST</button>
                 
                 </div>
-		   <div class="spinner-border text-dark" role="status" id="spinner" style="visibility:hidden">
-						 <span class="visually-hidden"></span>
-							</div>
+		   
                 
 
               
