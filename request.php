@@ -171,7 +171,7 @@ header('Access-Control-Max-Age: 1000')?>
                 <button class ="btn btn-primary" id = "btn">REQUEST</button>
                 
                 </div>
-		   <div class="spinner-border" role="status" id="spinner" style="visibility:hidden">
+		   <div class="spinner-border text-dark" role="status" id="spinner" style="visibility:hidden">
 						 <span class="visually-hidden"></span>
 							</div>
                 
